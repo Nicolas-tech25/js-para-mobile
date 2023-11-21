@@ -18,24 +18,23 @@ exemplo2();
 
 /* Exercício */
 
-valor1 = 10;
-valor2 = 20;
+// valor1 = 10;
+// valor2 = 20;
 
-function exercicio1(valor1, valor2) {
-    return valor1 - valor2;
-}
+// function exercicio1(valor1, valor2) {
+//     return valor1 - valor2;
+// }
 
-let resultado1 = exercicio1(10,5);
-let resultado2 = exercicio1(120,66);
+//  let resultado1 = exercicio1(10,5);
+// let resultado2 = exercicio1(120,66);
 
-console.log(resultado1);
-console.log(resultado2);
+// console.log(resultado1);
+// console.log(resultado2);
 
 /* Sintaxe de arrow function */
 const exemplo3 = () => {
 console.log("arrow function");
 };
-
 exemplo3();
 
 // const saudacao = (cliente) => {
@@ -52,12 +51,23 @@ const saudacao = cliente => console.log("Olá "+cliente);
 saudacao("Parceiro");
 saudacao("Fulano");
 
-const calculaMetade = (valor) => {
-    return valor / 2;
-};
+const calculaMetade = valor => valor / 2;
 
 let resultadoA = calculaMetade(100);
 let resultadoB = calculaMetade(666);
 
 console.log(resultadoA);
 console.log(resultadoB);
+
+/* Exercicio com arrow function */
+// exercicio2(10,5);
+// exercicio2(120,66);
+// const exercicio2 = (valor1, valor2) => return Math.abs(valor1 - valor2);
+
+/* Exercicio 02 */
+// faça uma função com arrow function que receba o nome de uma pessoa e converta este nome para letras maiusculas
+const maiusculo = nome => nome.toUpperCase();
+
+const nome = maiusculo("kaue");
+console.log(nome); // Saída
+  
