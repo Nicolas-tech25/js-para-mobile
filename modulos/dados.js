@@ -9,5 +9,7 @@ const livro = {
     volume: 'Os cenobitas estão chegando',
     ano: 1986
 }
+
+const alunos = ["Tanaka","Victor","Eliel","Aline"];
 // export default pessoa;
-export {pessoa, livro}; 
+export {pessoa, livro,alunos}; 

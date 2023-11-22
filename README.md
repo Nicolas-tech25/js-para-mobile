@@ -26,3 +26,7 @@ Obs: Arrow function e Anônima devem ser declaradas antes de serem chamadas.
 ### Template literal/string
 
 Forma maismmoderna de manipular dados estaticos e dinamicos, além de permitir uma forma mais facil executar operações dentro de string/códigos. Lembre-se do uso das **crases** e do bloso `${}` para codigo dinamico ( variaveis, constantes, funções etc).
+
+### Módulos
+
+São uma maneira de separar lógicas/funcionalidades/dados em arquivos dedicados. Ao criar módulos é necessario utilizar em comandos `export` ( no modulos a ser exportados) e `import`
