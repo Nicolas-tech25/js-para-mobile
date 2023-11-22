@@ -4,4 +4,10 @@ const pessoa = {
     cidade: 'São Paulo'
 }
 
-export default pessoa;
+const livro = {
+    titulo: 'Hellraiser: Renascido do Inferno',
+    volume: 'Os cenobitas estão chegando',
+    ano: 1986
+}
+// export default pessoa;
+export {pessoa, livro}; 
