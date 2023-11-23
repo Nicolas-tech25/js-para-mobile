@@ -15,6 +15,7 @@ const cliente = {
     idade: 55,
 };
 const novosDados = {
+    ...cliente,
     estado: "Sp",
     cidade: "123xyz",
     total: 5000.00,
