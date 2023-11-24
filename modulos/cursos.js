@@ -2,13 +2,13 @@ const cursos = [
     {
         id:1,
         titulo: "HTML5 E CSS3",
-        categoria: "front-end",
+        categoria: "Front-end",
         preco: 500
     },
     {
         id:2,
         titulo: "JS E REACT",
-        categoria: "front-end",
+        categoria: "Front-end",
         preco: 800
     },
     {
@@ -26,7 +26,7 @@ const cursos = [
     {
         id:5,
         titulo: "PHP E Mysql",
-        categoria: "back-end",
+        categoria: "Back-end",
         preco: 600
     },
     {

@@ -39,4 +39,10 @@ Ao importar apenas **um recurso**, utiliza-se `import nomeDoRecurso from "./loca
 ### Operadores spread e rest ...
 
 - spread (espalhar): usado para dividir elementos de um array ou propriedades de um objeto para outro array/objeto. Uteis para gerar novas estruturas de dados a partir de estruturas existentes.
-- rest (coletar/extrair): usado para gerar lista de parametros para uma função á partir dos valores de um array. util para evitar a necessidade de criar parametros a mais
+- rest (coletar/extrair): usado para gerar lista de parametros para uma função á partir dos valores de um array. util para evitar a necessidade de criar parametros a mais.
+
+### Destructuring (Desestruturação)
+
+Técnica para extrair valores de arrays e objetos para novas variáveis/constantes. Usada para simplificar o acesso a estes dados, podendo ser aplicada também em parâmetros de funções.
+
+ 
