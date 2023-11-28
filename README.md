@@ -45,4 +45,11 @@ Ao importar apenas **um recurso**, utiliza-se `import nomeDoRecurso from "./loca
 
 Técnica para extrair valores de arrays e objetos para novas variáveis/constantes. Usada para simplificar o acesso a estes dados, podendo ser aplicada também em parâmetros de funções.
 
+
+### Comunicação assincrona
+
+No javaScript moderno utilizamos para comunicação assincrona com APIS REST o comando `fetch`.
+
+você pode usar o `fetch` como **promisses** (recursos assincronos) encadeado com as funções `then` e `catch` (para tratamento de erros genéricos), ou usando a sintaxe `async/await` através de funções.
+
  
