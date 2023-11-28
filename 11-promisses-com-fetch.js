@@ -2,6 +2,8 @@
 
 const apiUrl = `https://jsonplaceholder.typicode.com/users/3`;
 
+function acessaAPI(){
+
 // Conecte/ Acesse
 fetch(apiUrl)
 
@@ -23,3 +25,5 @@ fetch(apiUrl)
 .catch(error => {
     console.error("erro na operação: "+error.message)
 })
+}
+acessaAPI();
