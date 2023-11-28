@@ -5,8 +5,16 @@ const apiUrl = `https://jsonplaceholder.typicode.com/users/3`;
 // Conecte/ Acesse
 fetch(apiUrl)
 
-// ... e então capyure a resposta da api no formato json
-.then(resposta => resposta.json())
+// ... e então capture a resposta da api no formato json
+.then(resposta => {
+    /* Se a resposta de requisição não for bem-sucedida (por exemplo, se não houver registros, ou se der erro no próprio server [500]) */
+    if(!resposta.ok){
+        throw new error(
+            `Erro de requisição: ${resposta.status} - ${resposta.statusText}`
+        )
+    }
+    return resposta.json();
+})
 
 // ... e então capture os dados contidos na resposta
 .then(dados => console.log(dados))
